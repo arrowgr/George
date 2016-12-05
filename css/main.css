@@ -1,80 +1,62 @@
 [class*="zocial-"]:before {
 	color: black;
-    display: inline-block;
-    font-family: 'zocial', sans-serif;
-    width: 2em;
-    height: 2em;
-    font-size: 17px;
+	display: inline-block;
+	font-family: 'zocial', sans-serif;
+	width: 2em;
+	height: 2em;
+	font-size: 17px;
 }
-
 * {
 	box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-
-.top-buffer { margin-top:20px; }
+.top-buffer {
+	margin-top: 20px;
+}
 a:hover [class*="zocial-"]:before {
-  color: #3d85c6;
+	color: #3d85c6;
 }
-
 #social a {
-  margin: 0 1em 0 0;
+	margin: 0 1em 0 0;
 }
-
 #social a:last-of-type {
-  margin: 0;
+	margin: 0;
 }
-
 article {
-  margin: 0 auto;
-  max-width: 50em;
-  text-align: justify;
-
+	margin: 0 auto;
+	max-width: 50em;
+	text-align: justify;
 }
-
 body {
-  font-family: sans-serif;
-  margin: 2em;
+	font-family: sans-serif;
+	margin: 2em;
 }
-
 #social {
-  line-height: 2em;
+	line-height: 2em;
 }
-
 figcaption {
-  color: #bb021e;
-  padding: 1em 0;
+	color: #bb021e;
+	padding: 1em 0;
 }
-
 figure {
-  margin: 1em 0 1em 0;
+	margin: 1em 0 1em 0;
 }
-
-
-
-
-
 h1 {
-  margin: 0 auto 1em auto;
-  padding-left: 15px;
+	margin: 0 auto 1em auto;
+	padding-left: 15px;
 }
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Roboto Condensed', sans-serif;	
-text-transform: uppercase;
-color:lightgray;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	color: lightgray;
 }
 .desc {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
-
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
-
-
-
